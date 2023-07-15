@@ -1,42 +1,28 @@
 <script>
-  // Fetch the Dire Wolf - Guide.html file
   fetch('monsters/Dire Wolf - Guide.html')
     .then(response => response.text())
     .then(html => {
-      // Inject the retrieved HTML content into the current document
-      document.open();
-      document.write(html);
-      document.close();
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
 
-      // Extract the base path of the Dire Wolf - Guide.html file
-      const basePath = 'monsters/Dire Wolf - Guide_files/';
+      const head = document.head;
+      const body = document.body;
 
-      // Retrieve all the additional files used by Dire Wolf - Guide.html
-      const files = Array.from(document.querySelectorAll(`link[href^="${basePath}"], script[src^="${basePath}"], img[src^="${basePath}"]`))
-        .map(element => element.href || element.src);
-
-      // Fetch each additional file and inject them into the current document
-      const fetchPromises = files.map(file => {
-        const filePath = file.replace(basePath, '');
-        return fetch(filePath)
-          .then(response => response.blob())
-          .then(blob => {
-            const url = URL.createObjectURL(blob);
-            const element = document.createElement(filePath.endsWith('.css') ? 'link' : 'script');
-            if (filePath.endsWith('.css')) {
-              element.rel = 'stylesheet';
-              element.href = url;
-            } else {
-              element.src = url;
-              element.async = false;
-            }
-            document.head.appendChild(element);
-          });
+      // Append the head elements
+      const headElements = doc.querySelectorAll('head > *');
+      headElements.forEach(element => {
+        const clonedNode = element.cloneNode(true);
+        head.appendChild(clonedNode);
       });
 
-      // Wait for all additional files to be fetched and injected before resolving
-      Promise.all(fetchPromises)
-        .then(() => console.log('Dire Wolf - Guide.html and its associated files have been loaded.'));
+      // Append the body elements
+      const bodyElements = doc.querySelectorAll('body > *');
+      bodyElements.forEach(element => {
+        const clonedNode = element.cloneNode(true);
+        body.appendChild(clonedNode);
+      });
+
+      console.log('Dire Wolf - Guide.html and its associated files have been loaded.');
     });
 </script>
 
