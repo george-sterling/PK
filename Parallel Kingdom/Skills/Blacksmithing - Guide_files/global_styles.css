@@ -1,0 +1,229 @@
+﻿body 
+{   	
+	background-image: url(/web/20110817135514im_/http://guide.parallelkingdom.com/pkwebtheme/images/header_gradient.png);
+	background-repeat: repeat-x;
+	background-color: black;	
+	color: white;
+	font-size: 12px;
+	font-weight: normal;
+	font-family:  arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+a:link, a:visited, a:active
+{
+    color: #F2E180; 
+}
+
+a:hover
+{
+    color: #FFCC33;
+}
+
+img 
+{
+    border-style: none;
+}
+
+h1 
+{
+    padding: 0px 0px 15px 0px;
+    font-variant: small-caps;
+    font-size: 28px;
+    margin:0px;
+    border:0px;
+    font-weight:bold;
+}
+
+h1, h1 a:link, h1 a:visited, h1 a:hover
+{
+    color: #FFFFFF;
+}
+
+.header-sidelink, .header-sidelink:link
+{
+	color: rgb(66, 164, 254);
+	font-size: 12px;
+	font-variant: normal;
+}
+
+h2
+{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+h2, h2 a:link, h2 a:visited, h2 a:hover
+{
+    color: #FFCC33;
+}
+
+h3
+{
+    color:Gray;
+    font-size: 12px;
+    font-weight:normal;
+    padding:0px;
+    margin:0px;
+}
+
+#pk_header
+{
+	height: 185px;
+}
+
+#pk_header_image
+{
+	background-image: url(/web/20110817135514im_/http://guide.parallelkingdom.com/pkwebtheme/images/header.png);
+	height: 134px;
+	width: 460px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: absolute;
+	top: 23px;
+	left: 0;
+	display: block;
+	z-index: -1;
+}
+
+#pk_main_content 
+{
+	padding: 20px;
+	padding-top:0px;
+	padding-left:20px; 
+	text-align:left;
+}
+
+#pk_menu
+{
+	position:absolute;
+	border: solid 0px;
+	top:0px;
+	left:265px;
+	height:auto;
+	width:755px;
+	display:block;
+	z-index:10;
+}
+
+#pk_menu #pk_menu_left
+{
+	background-image: url(/web/20110817135514im_/http://guide.parallelkingdom.com/pkwebtheme/images/menu_left.png);
+	height: 42px;
+	width: 37px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+	display: block;
+}
+
+#pk_menu #pk_menu_middle 
+{
+	background-image: url(/web/20110817135514im_/http://guide.parallelkingdom.com/pkwebtheme/images/menu_middle.png);
+	background-repeat: repeat-x;
+	height: 42px;
+	width: 610px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+	display: block;
+}
+
+#pk_menu #pk_menu_right 
+{
+	background-image: url(/web/20110817135514im_/http://guide.parallelkingdom.com/pkwebtheme/images/menu_right.png);
+	background-repeat: no-repeat;
+	height:42px;
+	width:23px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: left;
+	display:block;
+}
+
+#pk_menu #pk_menu_middle ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#pk_menu #pk_menu_middle li
+{
+	font-variant:normal;
+	font-size:15px;
+	text-decoration:none;
+	background-repeat: repeat-x;
+	height:auto;
+	padding:8px 3px 0 10px;
+	float:left;
+	border:0px;
+	display:block;
+	font-weight:bold;
+}
+
+#pk_menu #pk_menu_middle a:link {
+	color: white;
+	text-decoration:none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#pk_menu #pk_menu_middle a:visited {
+	color: white;
+	text-decoration:none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#pk_menu #pk_menu_middle a:hover {
+	color:  #3D9AB4;
+	text-decoration:none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+#pk_menu #pk_menu_middle a:active {
+	color: #3D9AB4;
+	text-decoration:none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+#pk_footer 
+{
+    font-size: 10pt;
+    color:Gray;
+    text-align: center;
+    height: 20px;
+}
+
+/*
+     FILE ARCHIVED ON 13:55:14 Aug 17, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:56:53 Jul 15, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 71.458
+  exclusion.robots: 0.088
+  exclusion.robots.policy: 0.077
+  RedisCDXSource: 1.295
+  esindex: 0.014
+  LoadShardBlock: 48.339 (3)
+  PetaboxLoader3.datanode: 97.081 (4)
+  load_resource: 371.78
+  PetaboxLoader3.resolve: 240.76
+*/

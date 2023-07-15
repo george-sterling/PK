@@ -1,0 +1,106 @@
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+pre,
+code {
+  font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 #ccc solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+}
+/*
+     FILE ARCHIVED ON 17:11:36 Feb 14, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:38:55 Jul 15, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 352.984
+  exclusion.robots: 19.669
+  exclusion.robots.policy: 19.649
+  cdx.remote: 0.181
+  esindex: 0.017
+  LoadShardBlock: 226.803 (3)
+  PetaboxLoader3.datanode: 214.04 (5)
+  load_resource: 432.448 (2)
+  PetaboxLoader3.resolve: 314.927 (2)
+*/

@@ -1,0 +1,1152 @@
+﻿/* Guide Front Page */
+
+#pk_guide_gettingStarted
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/get_started_guide_widget.png');
+    width: 663px;
+    height: 361px;
+    margin-bottom: 8px;
+}
+
+#pk_guide_gettingStarted_textContainer
+{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+#pk_guide_gettingStarted_textDescription
+{
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    padding-top: 5px;
+    text-shadow: 1px 1px 1px #000000;
+    width: 262px;
+}
+
+.pk_guide_frontPageButton
+{
+    float: left;
+    width: 216px;
+    height: 183px;
+    text-align: center;
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+
+.pk_guide_frontPageButton_text
+{
+    display: block;
+    margin-top: 10px;
+    
+    color: #B09E79;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 0 #120802;
+}
+
+#pk_guide_frontPageButton_aParallelWorld
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/parallel_world_preview_image.png');
+}
+
+#pk_guide_frontPageButton_aParallelWorld:hover
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/parallel_world_preview_image.png') 0 -183px;
+}
+
+#pk_guide_frontPageButton_skills
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/skills_preview_image.png');
+}
+
+#pk_guide_frontPageButton_skills:hover
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/skills_preview_image.png') 0 -183px;
+}
+
+#pk_guide_frontPageButton_specializations
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/specializations_preview_image.png');
+}
+
+#pk_guide_frontPageButton_specializations:hover
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/specializations_preview_image.png') 0 -183px;
+}
+
+#pk_guide_frontPageButton_cities
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/cities_preview_image.png');
+}
+
+#pk_guide_frontPageButton_cities:hover
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/cities_preview_image.png') 0 -183px;
+}
+
+#pk_guide_frontPageButton_kingdoms
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/kingdoms_preview_image.png');
+}
+
+#pk_guide_frontPageButton_kingdoms:hover
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/kingdoms_preview_image.png') 0 -183px;
+}
+
+#pk_guide_frontPageButton_events
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/events_preview_image.png');
+}
+
+#pk_guide_frontPageButton_events:hover
+{   
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/events_preview_image.png') 0 -183px;
+}
+
+/* Front page right column */
+
+#pk_guide_wiki_searchIcon
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/search_icon.png');
+    width: 16px;
+    height: 17px;
+    position: absolute;
+    display: block;
+    top: 16px;
+    left: 10px;
+}
+
+#pk_guide_wikiSearchBox
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/wiki_guide_search_box.png');
+    width: 263px;
+    padding-left: 31px;
+    height: 44px;
+    border: 0px;
+    margin-top: 2px;
+    border-image: initial;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #0C0600;
+    text-shadow: 0px 1px 0px #746248;
+    font-size: 16px;
+}
+
+.pk_guide_rightColumn_scrollImage
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/scroll_icon.png');
+    float: left;
+    display: inline-block;
+    width: 27px;
+    height: 28px;
+}
+
+.pk_guide_rightColumn_text
+{
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 235px;
+    text-shadow: 0 2px 0 #000000;
+}
+
+.pk_guide_rightColumn_arrow
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/arrow.png');
+    display: block;
+    width: 9px;
+    height: 13px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.pk_guide_rightColumn_entry
+{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+}
+
+.pk_guide_rightColumn_entry:hover
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/right_column_hover_tile.png');
+}
+
+.pk_guide_rightColumn_entry:hover .pk_guide_rightColumn_arrow
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/arrow.png') 0 -13px;
+}
+
+.pk_guide_rightColumn_entry:hover .pk_guide_rightColumn_text
+{
+    color: #B09E79;
+    text-shadow: 0 2px 0 #120802;
+}
+
+.pk_guide_rightColumn_divider
+{
+    margin-top: 0px;
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/main_body/right_column_divider_hr.png');
+    width: 292px;
+    height: 4px;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+/* All pages */
+
+#pk_guide_topTexture
+{
+    margin-left: -20px;
+    margin-top: -5px;
+    position: absolute;
+    z-index: 1;
+}
+
+#pk_guide_navigation_container
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    z-index: 3;
+    position: relative;
+}
+
+.pk_guide_page_container
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #ead19e;
+    text-shadow: 0px 1px 0px #120802;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 4;
+    position: relative;
+}
+
+.pk_guide_page_titleContainer
+{
+    margin-bottom: 20px;
+}
+
+.pk_guide_page_container p
+{
+    line-height: 190%;
+}
+
+.pk_guide_title
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ead19e;
+    text-shadow: 0px 1px 0px #120802;
+    margin-bottom: 3px;
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+
+.pk_guide_title_image
+{
+    float: left;
+}
+
+.pk_guide_sectionTitle
+{
+    color: #E0941C;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.pk_guide_list
+{
+    margin-left: 20px;
+}
+
+.pk_guide_list_image
+{
+    float: left;
+    
+}
+
+.pk_guide_list_title
+{
+    color: #ead19e;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 50px;
+    margin-bottom:2px;
+}
+
+.pk_guide_list_entry
+{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.pk_guide_smallList_entry
+{
+    margin-bottom: 8px;
+}
+
+.pk_guide_smallList_text
+{
+    color: #E0941C;
+    font-weight: bold;
+}
+
+.pk_guide_smallList_text:hover
+{
+    text-decoration: underline;
+}
+
+.pk_guide_smallList_img
+{
+    margin-right: 7px;
+}
+
+.pk_guide_bottomNavigation
+{
+    background: url('/web/20181010100634im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/bottom_nav_bar.png');
+    width: 643px;
+    height: 53px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pk_guide_bottomNavigation_text
+{
+    color: #ead19e;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 11px;
+    text-align: center;
+}
+
+.pk_guide_bottomNavigation_button
+{
+    float: right;
+    margin-top: 11px;
+    padding-right: 12px;
+}
+
+.pk_guide_bottomNavigation_button_left
+{
+    float: left;
+    margin-top: 11px;
+    padding-left: 12px;
+}
+
+/* page1.aspx */
+
+#pk_guide_pageOne_top
+{
+    margin-bottom: 35px;
+}
+
+#pk_guide_pageOne_top p
+{
+    font-size: 14px;
+    line-height: 24px;
+    width: 920px;
+}
+
+#pk_guide_pageOne_customizationicon
+{
+    margin-top: -2px;
+    margin-right: 5px;
+}
+
+#pk_guide_pageOne_customizationList
+{
+    float: left;
+    width: 580px;
+}
+
+#pk_guide_pageOne_customizationBigImage
+{
+    float: right;
+    margin-right: -19px;
+}
+
+#pk_guide_pageOne_iPhone_bigImage
+{
+    float: left;
+    margin-left: 65px;
+    margin-right: 45px;
+    margin-bottom: 30px;
+}
+
+#pk_guide_pageOne_claimlandicon
+{
+    margin-right: 5px;
+}
+
+#pk_guide_pageOne_claimingAndSocial
+{
+    width: 520px;
+    float: left;
+    margin-left: 50px;
+}
+
+#pk_guide_pageOne_claiming
+{
+    padding-top: 25px;
+}
+
+#pk_guide_pageOne_socialInteractionicon
+{
+    margin-right: 5px;
+}
+
+#pk_guide_pageOne_socialInteraction
+{
+    padding-top: 35px;
+}
+
+#pk_guide_pageOne_battle
+{
+    width: 480px;
+    float: left;
+}
+
+#pk_guide_pageOne_battleIcon
+{
+    margin-top: -9px;
+    margin-right: 5px;
+}
+
+#pk_guide_pageOne_pvpIcon
+{
+    margin-left: -10px;
+}
+
+#pk_guide_pageOne_slaughterIcon
+{
+    margin-left: -13px;
+}
+
+#pk_guide_pageOne_kingdomWarsIcon
+{
+    margin-left: -10px;
+}
+
+#pk_guide_pageOne_darkMonolithIcon
+{
+    margin-left: -7px;
+}
+
+#pk_guide_pageOne_dungeonsIcon
+{
+    margin-left: -17px;
+}
+
+#pk_guide_pageOne_ecomomyIcon
+{
+    margin-right: 5px;
+    margin-top: -1px;
+}
+
+#pk_guide_pageOne_playerEconomy
+{
+    width: 380px;
+    margin-left: 50px;
+    float: left;
+}
+
+#pk_guide_pageOne_OilIcon
+{
+    padding-right: 3px;
+}
+
+/* page2.aspx */
+
+#pk_guide_pageTwo_top
+{
+    width: 477px;
+}
+
+#pk_guide_pageTwo_top p
+{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#pk_guide_pageTwo_headingIcon
+{
+    margin-right: -30px;
+}
+
+#pk_guide_pageTwo_customizeAccount p
+{
+    width: 477px;
+}
+
+#pk_guide_pageTwo_createAccountBigImage
+{
+    float: left;
+    margin-top: 30px;
+    padding-right: 40px;
+}
+
+#pk_guide_pageTwo_customizeIcon
+{
+    margin-right: 5px;
+}
+
+#pk_guide_pageTwo_createAccount
+{
+    float: left;
+    width: 355px;
+    margin-top: 45px;
+}
+
+.pk_guide_pageTwo_numberIcons
+{
+    margin-top: -3px;
+}
+
+.pk_guide_pageTwo_list_title
+{
+    padding-top: 3px;
+    margin-left: 35px;
+}
+
+.pk_guide_pageTwo_list_entry
+{
+    margin-left: 6px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+#pk_guide_pageTwo_enteringThePK
+{
+    float: right;
+    width: 450px;
+    margin-top: 40px;
+}
+
+#pk_guide_pageTwo_enterIcon
+{
+    margin-right: 5px;
+}
+
+#pk_guide_pageTwo_enteringThePKBigImage
+{
+    float: left;
+    margin-left: -40px;
+    margin-top: 20px;
+}
+
+#pk_guide_pageTwo_buildingFlagHouseBigImage
+{
+    float: right;
+    padding-top: 50px;
+}
+
+#pk_guide_pageTwo_buildingFlagHouse
+{
+    float: left;
+    margin-left: 50px;
+    width: 350px;
+    margin-top: 40px;
+}
+
+#pk_guide_pageTwo_buildIcon
+{
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+#pk_guide_pageTwo_huntingAndGathering
+{
+    float: right;
+    width: 450px;
+    margin-top: 40px;
+}
+
+#pk_guide_pageTwo_huntingIcon
+{
+    margin-right: 5px;
+    margin-top: -1px;
+}
+
+#pk_guide_pageTwo_huntingAndGatheringBigImage
+{
+    float: left;
+    margin-left: -24px;
+    margin-top: 60px;
+}
+
+#pk_guide_pageTwo_monsterTypes
+{
+    float: left;
+    width: 620px;
+    padding-top: 60px;
+}
+
+#pk_guide_pageTwo_monsterIcon
+{
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+#pk_guide_pageTwo_abilities
+{
+    float: left;
+    width: 290px;
+    padding-top: 60px;
+}
+
+.pk_guide_pageTwo_monsterTypes_left
+{
+    float: left;
+    width: 235px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.pk_guide_pageTwo_monsterTypes_right
+{
+    float: left;
+    margin-left: 20px;
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#pk_guide_pageTwo_normalMonster
+{
+    margin-left: 35px;
+    margin-top: -12px;
+}
+
+#pk_guide_pageTwo_viciousMonster
+{
+    margin-left: 40px;
+}
+
+#pk_guide_pageTwo_epicMonster
+{
+    margin-top: 18px;
+}
+
+.pk_guide_pageTwo_monsterTypes_title
+{
+    color: #EAD19E;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.pk_guide_pageTwo_monsterTypes_entry
+{
+    margin-top: 15px;
+}
+
+.pk_guide_pageTwo_abilities_title
+{
+    color: #EAD19E;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+#pk_guide_pageTwo_abilitiesIcon
+{
+    margin-right: 5px;
+    margin-top: -4px;
+}
+
+#pk_guide_pageTwo_tauntIcon
+{
+    margin-right: 17px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+#pk_guide_pageTwo_berriesIcon
+{
+    margin-right: 5px;
+}
+
+#pk_guide_pageTwo_shieldchargeIcon
+{
+    margin-right: 17px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.pk_guide_pageTwo_abilities_image
+{
+    float: left;
+}
+
+#pk_guide_pageTwo_travelingIcon
+{
+    margin-right: 2px;
+    margin-top: -3px;
+}
+
+#pk_guide_pageTwo_traveling
+{
+    z-index: 3;
+    position: relative;
+    margin-top: 300px;
+}
+
+/* page3.aspx */
+
+#pk_guide_pageThree_top
+{
+    float: left;
+    width: 510px;
+}
+
+.pk_guide_pageThree_title_textLarger
+{
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#pk_guide_pageThree_monk
+{
+    float: right;
+    margin-right: -19px;
+}
+
+#pk_guide_pageThree_chatIcon
+{
+    margin-right:5px;
+}
+
+#pk_guide_pageThree_chatphonesImage
+{
+    margin-top:25px;
+    padding-right:10px;
+}
+
+#pk_guide_pageThree_messagingIcon
+{
+    margin-right:5px;
+    margin-top:-2px;
+}
+
+#pk_guide_pageThree_messagingBigImage
+{
+    float: left;
+}
+
+#pk_guide_pageThree_messaging
+{
+    float: left;
+    margin-left: 50px;
+    width: 350px;
+}
+
+#pk_guide_pageThree_phoneImage
+{
+    float: right;
+    width: 350px;
+    margin-right: -20px;
+}
+
+#pk_guide_pageThree_aquaintancesIcon
+{
+    margin-right:5px;
+    margin-top:-3px;
+}
+
+#pk_guide_pageThree_acquaintances
+{
+    float: left;
+    width: 530px;
+}
+
+.pk_guide_pageThree_smallerTitle
+{
+    color: #ead19e;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#pk_guide_pageThree_cityIcon
+{
+    margin-right:5px;
+    margin-top:-1px;
+}
+
+#pk_guide_pageThree_cities
+{
+    float: left;
+    width: 491px;
+}
+
+#pk_guide_pageThree_citiesBigImage
+{
+    float: right;
+    width: 550px;
+    margin-right: -28px;
+    margin-left: -75px;
+}
+
+#pk_guide_pageThree_crystalIcon
+{
+    margin-right:5px;
+}
+
+#pk_guide_pageThree_mayorIcon
+{
+    margin-right:5px;
+}
+
+#pk_guide_pageThree_crystalMayorBigImage
+{
+    float: left;
+    width: 500px;
+    margin-left: -38px;
+    margin-top: 20px;
+}
+
+#pk_guide_pageThree_crystalMayor
+{
+    float: left;
+    margin-left: 50px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+#pk_guide_pageThree_kingdomsBigImage
+{
+    float: right;
+    margin-right: -18px;
+    margin-top: 45px;
+}
+
+#pk_guide_pageThree_kingdomsIcon
+{
+    margin-right:5px;
+    margin-top:-4px;
+}
+
+#pk_guide_pageThree_kingdoms
+{
+    float: left;
+    width: 466px;
+    margin-top: 45px;
+}
+
+#pk_guide_pageThree_kingdomchatIcon
+{
+    margin-left:-10px;
+}
+
+#pk_guide_pageThree_kingdombuildingsIcon
+{
+    margin-left:-14px;
+}
+
+#pk_guide_pageThree_bricksIcon
+{
+    margin-left:-16px;
+}
+
+#pk_guide_pageThree_kingBigImage
+{
+    float: left;
+    margin-left: -39px;
+    margin-top:20px;
+}
+
+#pk_guide_pageThree_hailIcon
+{
+    margin-right:5px;
+    margin-top:-3px;
+}
+
+#pk_guide_pageThree_king
+{
+    float: left;
+    margin-left: 10px;
+    width: 390px;
+}
+
+/* page4.aspx */
+
+#pk_guide_pageFour_top
+{
+    float: left;
+    width: 910px;
+}
+
+#pk_guide_pageFour_top p
+{
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#pk_guide_pageFour_skillsBigImage
+{
+    float: right;
+    margin-right: -18px;
+    margin-top: 20px;
+}
+
+#pk_guide_pageFour_skillsIcon
+{
+    margin-right:5px;
+    margin-top:-2px;
+}
+
+#pk_guide_pageFour_skills
+{
+    margin-top: 20px;
+    float: left;
+    width: 505px;
+    margin-right: -60px;
+}
+
+.pk_guide_pageFour_skillsExample1
+{
+    margin-left:-14px;
+}
+
+#pk_guide_pageFour_skillsExample2
+{
+    margin-left:-6px;
+}
+
+
+#pk_guide_pageFour_specializationBigImage
+{
+    float: left;
+    margin-left: -46px;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+
+#pk_guide_pageFour_specializationsIcon
+{
+    margin-right:4px;
+    margin-top:-9px;
+}
+
+#pk_guide_pageFour_specialization
+{
+    float: left;
+    width: 450px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.pk_guide_pageFour_smallerTitle
+{
+    color: #ead19e;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.pk_guide_pageFour_specializationEntry
+{
+    margin-top: 20px;
+}
+
+.pk_guide_pageFour_specializationImage
+{
+    float: left;
+}
+
+#pk_guide_pageFour_gear
+{
+    position: relative;
+    z-index: 3;
+    float: left;
+    width: 550px;
+    margin-top: 50px;
+}
+
+#pk_guide_pageFour_gearIcon
+{
+    margin-right:5px;
+    margin-top:-3px;
+}
+
+.pk_guide_pageFour_gearImages
+{  
+    margin-left:-18px;
+}
+
+#pk_guide_pageFour_iceImage
+{
+    margin-left:-24px;
+}
+
+#pk_guide_pageFour_ninjaImage
+{
+    margin-top:60px;
+}
+
+#pk_guide_pageFour_rankingsBigImage
+{
+    float: left;
+    margin-left: -25px;
+    margin-top:40px;
+}
+
+#pk_guide_pageFour_rankingsIcon
+{
+    margin-right:5px;
+    margin-top:-4px;
+}
+
+#pk_guide_pageFour_badgesIcon
+{
+    margin-right:5px;
+    margin-top:-4px;
+}
+
+#pk_guide_pageFour_trophiesIcon
+{
+    margin-right:5px;
+    margin-top:-2px;
+}
+
+#pk_guide_pageFour_rankings
+{
+    float: left;
+    width: 426px;
+    margin-left: 20px;
+    margin-top: 70px; 
+}
+
+#pk_guide_pageFour_rankings p
+{
+    margin-bottom:50px;
+}
+
+/* page5.aspx */
+
+#pk_guide_pageFive_skyRealmBigImage
+{
+    float: left;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+#pk_guide_pageFive_skyIcon
+{
+    margin-right:4px;
+}
+
+#pk_guide_pageFive_skyRealm
+{
+    float: right;
+    width: 450px;
+}
+
+
+#pk_guide_pageFive_dungeonsBigImage
+{
+    float: right;
+    margin-right: -20px;
+    margin-top: -50px;
+}
+
+#pk_guide_pageFive_swordIcon
+{
+    margin-right:4px;
+}
+
+#pk_guide_pageFive_dungeons
+{
+    float: left;
+    width: 450px;
+}
+
+
+.pk_guide_pageFive_smallerTitle
+{
+    color: #ead19e;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+#pk_guide_pageFive_rareMonstersBigImage
+{
+    float: left;
+    margin-left: 6px;
+}
+
+#pk_guide_pageFive_rareMonsters
+{
+    float: left;
+    margin-left: 50px;
+    width: 425px;
+    margin-top: 50px;
+}
+
+#pk_guide_pageFive_rareIcon
+{
+    margin-right:5px;
+}
+
+#pk_guide_pageFive_eventsBigImage
+{
+    float: right;
+    margin-right: -19px;
+    margin-top: 150px;
+}
+
+#pk_guide_pageFive_eventsIcon
+{
+    margin-right:5px;
+    margin-top:-3px;
+}
+
+#pk_guide_pageFive_events
+{
+    float: left;
+    width: 430px;
+    margin-top: 40px;
+}
+
+.pk_guide_pageFive_eventsImages
+{
+    margin-left:-18px;
+}
+/*
+     FILE ARCHIVED ON 10:06:34 Oct 10, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:38:54 Jul 15, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 91.398
+  exclusion.robots: 0.082
+  exclusion.robots.policy: 0.071
+  cdx.remote: 0.064
+  esindex: 0.032
+  LoadShardBlock: 50.326 (3)
+  PetaboxLoader3.datanode: 57.03 (4)
+  load_resource: 288.118
+  PetaboxLoader3.resolve: 266.075
+*/

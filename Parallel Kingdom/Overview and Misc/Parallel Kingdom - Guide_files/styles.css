@@ -1,0 +1,3750 @@
+﻿html
+{
+    overflow-y: scroll;
+}
+
+body 
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a 
+{
+    color: #E0941C;
+    text-decoration: none;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* Background Image */
+.pk_bg_img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -9999;
+}
+
+#pk_blanket
+{
+    width: 100%;
+    background-color:#111;
+    opacity: 0.65;
+    position: absolute;
+    z-index: 1000;
+    display: none;
+}
+
+/* MasterFile Main */
+/* IDs */
+
+#pk_master_mainContent_backgroundContainer
+{
+    width: 1018px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pk_master_mainContent_topCap
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/main_body_top_cap.png');
+    height: 105px;
+    color: White;
+}
+
+#pk_master_mainContent_left
+{
+    width: 669px;
+    margin-left: -4px;
+    float: left;
+    margin-top: -3px;
+}
+
+#pk_master_mainContent_middle_tile
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/main_body_middle_tile_lo.png');
+}
+
+#pk_master_mainContent_bottomCap
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/main_body_bottom_cap.png');
+    height: 184px;
+}
+
+/* light content */
+.pk_lightContent_topCap
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/left_column_body_top_cap_lo.png');
+    height: 70px;
+    width: 673px;
+}
+
+.pk_lightContent_middle
+{
+    width: 630px;
+    padding-left: 15px;
+    padding-right: 28px;
+    float: left;
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/left_column_body_middle_tile.png');
+    
+}
+
+.pk_lightContent_middleTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/left_column_body_middle_tile.png');
+    width: 673px;
+    float: left;
+}
+
+
+.pk_lightContent_adjust
+{
+    margin-top: -50px;
+}
+
+.pk_lightContent_ieFix_relative
+{
+    position: relative;
+}
+
+.pk_lightContent_bottomCap
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/left_column_body_bottom_cap.png');
+    height: 28px;
+    width: 673px;
+    float: left;
+}
+
+#pk_master_rightContent
+{
+    float: right;
+    width: 302px;
+    margin-right: -4px;
+    margin-left: -3px;
+    margin-top: 2px;
+}
+
+/* TopBar */
+
+.pk_topBar_submitButton_hidden
+{
+    position: absolute; 
+    left: -9999px; 
+    width: 1px; 
+    height: 1px;
+}
+
+.pk_topBar_errorMessage_container
+{
+    position: absolute;
+    top: 28px;
+    font-weight: normal;
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/error_bubble.png');
+    width: 371px;
+    height: 52px;
+    text-align: center;
+}
+
+.pk_topBar_errorMessage_container_text
+{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    color: #ffffff;
+    text-shadow: 0px -1px 0px #280700;
+    font-size: 12px;
+}
+
+#pk_topBar_container 
+{
+	font-size: 1.1em;
+	background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_bar_tile.png');
+	height: 37px;
+	color: White;
+}
+
+.pk_topBar_divider
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_bar_divider.png');
+    height: 31px;
+    width: 2px;
+    float: left;
+}
+
+#pk_topBar_innerContainer 
+{
+	width: 1018px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	height: 37px;
+	/* overflow: auto; */
+}
+
+.pk_topBar_highlighHover_leftCap
+{
+    width: 4px;
+    float: left;
+    height: 30px;
+    margin-left: -1px;
+}
+
+.pk_topBar_highlightHover_selected .pk_topBar_highlighHover_leftCap
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_selected_left_cap.png');
+}
+
+.pk_topBar_highlightHover_middleTile
+{
+    float: left;
+}
+
+.pk_topBar_highlightHover_selected .pk_topBar_highlightHover_middleTile
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_selected_middle_tile.png');
+    height: 30px;
+}
+
+.pk_topBar_highlighHover_rightCap
+{
+    width: 4px;
+    float: right;
+    height: 30px;
+    margin-right: -1px;
+}
+
+.pk_topBar_highlightHover_selected .pk_topBar_highlighHover_rightCap
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_selected_right_cap.png');
+}
+
+.pk_topBar_highlightHover
+{
+    cursor: pointer;
+}
+
+.pk_topBar_highlightHover:hover
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_hover_tile.png');
+}
+
+.pk_topBar_highlightHover_selected
+{
+    cursor: pointer;
+}
+
+#pk_topBar_languageSelect_container
+{
+    width: 105px;
+    text-align: center;
+}
+
+#pk_topBar_selectedLanguage
+{
+    display: inline-block;
+    margin-top: 6px;
+}
+
+#pk_topBar_languageSelect 
+{
+	float: left;
+	height: 30px;
+	position: relative;
+}
+
+.pk_topBar_dropDown_leftCap
+{
+    float: left;
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_dropdown_left_cap.png');
+    width: 8px;
+}
+
+.pk_topBar_dropDown_middleTile
+{
+    float: left;
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_dropdown_middle_tile.png');
+}
+
+.pk_topBar_dropDown_rightCap
+{
+    float: left;
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_dropdown_right_cap.png');
+    width: 8px;
+}
+
+#pk_topBar_languageSelect_leftCap
+{
+    height: 143px;
+}
+
+#pk_topBar_languageSelect_middleTile
+{
+    height: 143px;
+    width: 306px;
+}
+
+#pk_topBar_languageSelect_rightCap
+{
+    height: 143px;
+}
+
+#pk_topBar_languageSelect_list
+{
+    display: none;
+    position: absolute;
+    width: 322px;
+    left: -5px;
+    top: 30px;
+    z-index: 2;
+}
+
+.pk_topBar_highlightHover_selected .pk_topBar_dropDown_arrow
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_bar_dropdown_arrow.png') 0 15px;
+}
+
+#pk_topBar_languageSelect ul
+{
+    list-style: none;
+    padding: 10px 0px 0px 2px;
+    margin: 0px;
+    text-align: left;
+}
+
+.pk_topBar_languageSelect_li
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+.pk_topBar_languageSelect_link
+{
+    padding: 5px 5px 5px 8px;
+    margin: 0px 0px 0px 0px;
+    color: #C2B09D;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #000000;
+    display: inline-block;
+}
+
+.pk_topBar_languageSelect_link:hover
+{
+    background-color: #413627;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.pk_topBar_languageSelect_link_image
+{
+    float: left;
+    margin-top: 3px;
+}
+
+.pk_topBar_languageSelect_link_text
+{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+#pk_topBar_login 
+{
+
+	height: 25px;
+}
+
+.pk_topBar_dropDown_arrow
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_bar_dropdown_arrow.png') 0 0;
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+
+
+.pk_topBar_login_text_container
+{
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.pk_topBar_login_text_leftCap
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/login_field_left_cap.png');
+    width: 4px;
+    height: 20px;
+    float: left;
+}
+
+.pk_topBar_login_text
+{
+	padding: 0px;
+	margin: 0px;
+	background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/login_field_middle_tile.png');
+	border: 0px;
+	height: 20px;
+	float: left;
+	background-color: transparent;
+	width: 117px;
+}
+
+.pk_topBar_login_text_rightCap
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/login_field_right_cap.png');
+    width: 4px;
+    height: 20px;
+    float: left;
+}
+
+.pk_topBar_login_button
+{
+    display: inline-block;
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_login_button_sprite.png') 0 0;
+    border: none;
+    background-color: transparent;
+    height: 20px;
+    width: 55px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#pk_topBar_login_button_text
+{
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.pk_topBar_login_button:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_login_button_sprite.png') 0 -20px;
+}
+
+.pk_topBar_login_button:active
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_login_button_sprite.png') 0 -40px;
+}
+
+#pk_topBar_loading
+{
+    visibility: hidden;
+    margin-left: 20px;
+    margin-top: 9px;
+    padding-right: 10px;
+}
+
+#pk_topBar_UserLoggedInDiv
+{
+    margin-top: 3px;
+}
+
+.pk_topBar_userLoggedIn_name
+{
+    /* color: #E0941C;*/
+    color: #C2B09D;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #000000;
+}
+
+.pk_topBar_userLoggedIn_name:hover
+{
+    text-decoration: underline;
+}
+
+#pk_topBar_account 
+{
+	float: right;
+	height: 30px;
+	position: relative;
+}
+
+#pk_topBar_myAccount_dropDown
+{
+    position: absolute;
+    width: 200px;
+    left: -5px;
+    top: 30px;
+    z-index: 500;
+    display: none;
+}
+
+#pk_topBar_myAccount_dropDown_leftTile
+{
+    height: 143px;
+}
+
+#pk_topBar_myAccount_dropDown_middleTile
+{
+    height: 143px;
+}
+
+#pk_topBar_myAccount_dropDown_rightTile
+{
+    height: 143px;
+}
+
+#pk_topBar_myAccount_dropDown ul
+{
+    list-style: none;
+    padding: 10px 9px 0px 2px;
+    margin: 0px;
+    text-align: left;
+}
+
+.pk_topBar_myAccount_dropDown_li
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+
+
+#pk_topBar_support {
+	float: right;
+	height: 30px;
+	position: relative;
+}
+
+.pk_topBar_support_link_image
+{
+    margin-top: 1px;
+    padding-right: 5px;
+    float: left;
+}
+
+#pk_topBar_support_dropDown
+{
+    position: absolute;
+    width: 155px;
+    left: -5px;
+    top: 30px;
+    z-index: 500;
+    display: none;
+}
+
+#pk_topBar_support_dropDown_leftTile
+{
+    height: 143px;
+}
+
+#pk_topBar_support_dropDown_middleTile
+{
+    height: 143px;
+}
+
+#pk_topBar_support_dropDown_rightTile
+{
+    height: 143px;
+}
+
+#pk_topBar_support_dropDown ul
+{
+    list-style: none;
+    padding: 10px 8px 0px 2px;
+    margin: 0px;
+    text-align: left;
+}
+
+.pk_topBar_support_dropDown_li
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+#pk_topBar_serverStatus
+{
+    float: right;
+}
+
+.pk_topBar_serverStatus_greenBubble
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_bar_server_status_sprite.png') 0 0;
+    width: 21px;
+    height: 21px;
+    float: right;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.pk_topBar_serverStatus_redBubble
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/top_account_bar/top_account_bar_server_status_sprite.png') 0 21px;
+    width: 21px;
+    height: 21px;
+    float: right;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.topBarUpdatePanel 
+{
+    padding: 0px;
+}
+
+/* Play Free */
+/* IDs */
+
+#pk_playFree_button
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/play_free_button.png');
+    display: inline-block;
+    margin-right: -6px;
+    width: 226px;
+    height: 56px;
+    float: right;
+    margin-bottom: -4px;
+}
+
+#pk_playFree_button:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/play_free_button.png') 0 -56px;
+}
+
+/* NavBar */
+
+#pk_navBar_logo
+{
+    position: absolute;
+    left: -11px;
+    top: 15px;
+}
+
+#pk_navBar_links_outerContainer
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#pk_navBar_links_innerContainer
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/nav_bar/nav_bar.png');
+    display: block;
+    font-size: 1.2em;
+    height: 81px;
+    width: 683px;
+    text-align: center;
+    float: right;
+    margin-top: 16px;
+    margin-right: -3px;
+}
+
+.pk_navBar_links_linkContainer
+{
+    float: left;
+    padding-top: 9px;
+    position: relative;
+}
+
+.pk_navBar_link
+{
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2a2217;
+    text-shadow: 0px 1px 0px #d8cf9f;
+}
+
+.pk_navBar_links_imgContainer
+{
+    display: block;
+    position: relative;
+    z-index: 4;
+}
+
+.pk_navBar_links_linkDivider
+{
+    background-image: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/nav_bar/nav_bar_divider.png');
+    width: 4px;
+    height: 69px;
+    float: left;
+    margin-top: 4px;
+}
+
+/* NAV BAR HOVER */
+
+.pk_navBar_links_linkContainer:hover .pk_navBar_hover_leftCap_Edge, .pk_navBar_links_linkContainer:hover .pk_navBar_hover_middleTile, .pk_navBar_links_linkContainer:hover .pk_navBar_hover_rightCap, .pk_navBar_links_linkContainer:hover .pk_navBar_hover_rightCap_Edge
+{
+    display: block;
+}
+
+.pk_navBar_hover_leftCap_Edge
+{
+    position: absolute; 
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/nav_bar/nav_bar_hover_left_cap_edge.png');
+    height: 69px;
+    width: 6px;
+    top: 4px;
+    left: 4px;
+    display: none;
+}
+
+.pk_navBar_hover_middleTile
+{   
+    position: absolute; 
+    top: 4px;
+    left: 1px;
+    width: 104px;
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/nav_bar/nav_bar_hover_middle_tile.png');
+    height: 69px;
+    background-repeat: repeat-x;
+    z-index: 1;
+    display: none;
+}
+
+.pk_navBar_hover_rightCap
+{   
+    position: absolute;
+    top: 4px;
+    width: 1px;
+    left: 114px;
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/nav_bar/nav_bar_hover_right_cap.png');
+    height: 69px;
+    display: none;
+}
+
+.pk_navBar_hover_leftCap
+{   
+    position: absolute;
+    top: 4px;
+    width: 1px;
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/nav_bar/nav_bar_hover_left_cap.png');
+    height: 69px;
+    left: -0px;
+    display: none; 
+}
+
+.pk_navBar_hover_rightCap_Edge
+{
+    position: absolute; 
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/nav_bar/nav_bar_hover_right_cap_edge.png');
+    height: 69px;
+    width: 6px;
+    top: 4px;
+    display: none;
+}
+
+.pk_navBar_linkText
+{
+    z-index: 3; 
+    position: relative;
+    display: block;
+}
+
+/* Right Column */
+.pk_rightColumn_playWebButton_class
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/play_web_button.png');
+    display: inline-block;
+    width: 302px;
+    height: 99px;
+    padding-bottom: 3px;
+}
+
+.pk_rightColumn_playWebButton_class:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/play_web_button.png') 0 -101px;
+}
+
+#pk_rightColumn_playAndroidButton
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/play_android_button.png');
+    display: inline-block;
+    width: 302px;
+    height: 99px;
+    padding-bottom: 3px;
+}
+
+#pk_rightColumn_playAndroidButton:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/play_android_button.png') 0 -101px;
+}
+
+
+#pk_rightColumn_playIosButton
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/play_ios_button.png');
+    display: inline-block;
+    width: 302px;
+    height: 99px;
+    padding-bottom: 3px;
+}
+
+#pk_rightColumn_playIosButton:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/play_ios_button.png') 0 -101px;
+}
+
+.pk_rightColumn_standardButton
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/right_column_standard_button.png');
+    display: inline-block;
+    width: 302px;
+    height: 66px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.pk_rightColumn_standardButton:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/right_column_standard_button.png') 0 -66px;
+}
+
+.pk_rightColumn_standardButton_text
+{
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 70px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2d1f0f;
+    text-shadow: 0px 1px 0px #dbcfb5;
+
+}
+
+.pk_rightColumn_standardButton img
+{
+    padding-left: 15px;
+    padding-top: 14px;
+}
+
+.pk_rightColumn_divider_hr
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/right_column_divider_hr.png');
+    width: 292px;
+    height: 4px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+}
+
+#pk_rightColumn_facebook_container
+{
+    width: 302px;
+}
+
+#pk_rightColumn_facebook_container img
+{
+    float: left;
+    padding-right: 10px;
+}
+
+#pk_rightColumn_twitter_container
+{
+    width: 302px;
+}
+
+#pk_rightColumn_twitter_container img
+{
+    float: left;
+    padding-right: 10px;
+}
+
+#pk_rightColumn_pitchText
+{
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+/* Footer */
+/* IDs */
+
+#pk_footer_outerContainer
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#pk_footer_innerContainer
+{
+    padding: 5px;
+    display: block;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+#pk_footer_innerContainer ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+#pk_footer_innerContainer li
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pk_footer_sectionContainer
+{
+    float: left;
+    padding-right: 150px;
+}
+
+/* CONTROLS */
+
+/* ImageSlider */
+/* IDs*/
+#pk_imageSlider_container
+{
+    
+}
+
+.pk_imageSlider_imageContainer
+{
+    display: none; 
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+}
+
+/* LatestUpdateHut */
+#pk_latestUpdateHut_outerContainer
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/homepage_update_hut/update_hut_paper_bg.png');
+    padding: 15px;
+    height: 231px;
+}
+
+#pk_latestUpdateHut_titleContainer
+{
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+#pk_latestUpdateHut_titleContainer h1
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2f1c0b;
+    text-shadow: 0px 1px 0px #E0CBA4;
+}
+
+#pk_latestUpdateHut_titleContainer img
+{
+    float: left;
+    padding-left: 10px;
+	padding-right: 10px;
+	margin-top: -3px;
+}
+
+#pk_latestUpdateHut_clear
+{
+    clear: both;
+}
+
+.pk_latestUpdateHut_articleContainer
+{
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.pk_latestUpdateHut_articleContainer a
+{
+    color: #611700;
+    text-decoration: underline;
+}
+
+.pk_latestUpdateHut_image
+{
+    float: left;
+    padding-right: 15px;
+}
+
+.pk_latestUpdateHut_title
+{
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+
+.pk_latestUpdateHut_shortText
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #2F1C0B;
+	text-shadow: 0px 1px 0px #E0CBA4;
+}
+
+.pk_latestUpdateHut_height
+{
+    /* height: 162px; */
+}
+
+#pk_latestUpdateHut_authorText
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #2f1c0b;
+    text-shadow: 0px 1px 0px #E0CBA4;
+    margin-top: -22px;
+    margin-bottom: 10px;
+}
+
+.pk_latestUpdateHut_top_img
+{
+    float: left;
+}
+
+.pk_latestUpdateHut_top_title
+{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.pk_latestUpdateHut_top_viewAll_button
+{
+    float: right;
+}
+
+
+/* Latest Rankings (Top Rankings) */
+
+#pk_latestRankings_outerContainer .headingIcon
+{
+    float: left;
+}
+
+#pk_latestRankings_outerContainer .pk_bold_light_heading
+{
+    float: left;
+    margin-top: 6px;
+}
+
+#pk_latestRankings_outerContainer .pk_moreButton
+{
+    float: right;
+}
+
+#pk_latestRankings_rankingContainer
+{
+    padding-left: 2px;
+}
+
+#pk_latestRankings_rankingContainer .ranking
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/rankings_widget_box.png') ;
+    width: 205px;
+    height: 317px;
+    float: left;
+}
+
+.pk_latestRankings_rankingContainer_title
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e0941c;
+    text-shadow: 0px 2px 0px #000000;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+#pk_latestRankings_rankingContainer .pk_latestRankings_rankingContainer_title
+{
+    margin-top: 16px;
+    margin-left: 21px;
+    margin-right: 13px;
+}
+
+.pk_latestRankings_rankingContainer_rankingDescription
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    color: #ded3bd;
+    text-shadow: 0px 2px 0px #000000;
+    margin-left: 21px;
+    margin-right: 12px;
+    margin-top: 10px;
+    margin-bottom: 27px;
+}
+
+.pk_latestRankings_rankingEntry
+{
+    margin-top: 14px;
+    margin-left: 15px;
+}
+
+.pk_latestRankings_rankingEntry img
+{
+    float: left;
+    padding-left: 3px;
+	padding-right: 7px;
+}
+
+.pk_latestRankings_rankingEntry_name
+{
+    float: left;
+    margin-left: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #f4efe5;
+    text-shadow: 0px 2px 0px #000000;
+}
+
+.pk_latestRankings_rankingEntry_score
+{
+    float: right;
+    margin-right: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #95ba00;
+    text-shadow: 0px 2px 0px #000000;
+}
+
+.pk_latestRankings_rankingEntry_hrDivider
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/rankings_widget_box_divider_hr.png') ;
+    height: 2px;
+    margin-right: 15px;
+}
+
+/* Forum Link */
+
+#pk_forumLink_container
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pieces/forum_widget.png') ;
+    width: 673px;
+    height: 256px;
+    margin-bottom: 15px;
+}
+
+#pk_forumLink_textContainer
+{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+#pk_forumLink_textContainer .headingIcon
+{
+    float: left;
+}
+
+#pk_forumLink_textContainer .pk_bold_light_heading
+{
+    float: left;
+}
+
+#pk_forum_link_description
+{
+	width: 265px;
+	padding-top: 5px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #EAD19E;
+	text-shadow: 1px 1px 1px black;
+	line-height: 21px;
+}
+
+/* WallpaperSnapshot.ascs */
+
+.pk_wallpaperControl_thumbnailRow
+{
+    margin-top: 7px;
+    margin-left: 4px;
+    width: 630px;
+}
+
+.pk_wallpaperControl_thumbnailContainer
+{
+    float: left;
+    margin-left: 3px;
+    margin-right: 8px;
+    width: 197px;
+    height: 157px;
+}
+
+
+/* VideoSnapshot.ascx */
+
+.pk_videoSnapshot_image
+{
+    margin-top: 10px;
+    width: 304px;
+    height: 213px;
+    float:left;
+    display: block;
+}
+
+#pk_videoSnapshot1
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/pieces/video_image1_icon.png');
+}
+
+#pk_videoSnapshot1:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/pieces/video_image1_icon.png') 0 -213px;
+}
+
+#pk_videoSnapshot2
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/pieces/video_image2_icon.png');
+    margin-left: 17px;
+}
+
+#pk_videoSnapshot2:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/pieces/video_image2_icon.png') 0 -213px;
+}
+
+
+/* CurrentPressReleases.ascx */
+#pk_currentPR_container {
+    width: 265px;
+    margin-left: 17px;
+}
+
+.pk_currentPR_heading {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      color: #EAD19E;
+      text-shadow: 1px 1px 1px #120802;
+      margin-top: 5px;
+      margin-bottom: 10px;
+}
+
+.pk_currentPR_entry_title {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      font-size: 11px;
+      color: #FF9C00;
+      text-shadow: 1px 1px 1px black;
+      line-height: 13px;
+}
+
+.pk_currentPR_entry_title_translations {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-style:italic;
+      font-size: 11px;
+      color: #FF9C00;
+      text-shadow: 1px 1px 1px black;
+      line-height: 13px;
+}
+
+.pk_currentPR_entry_date {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-size: 11px;
+      color: #D1B98B;
+      text-shadow: 1px 1px 1px black;
+}
+
+/* ArticlesAndReviews.ascx */
+#pk_articlesAndReviews_container 
+{
+    width: 265px;
+    margin-left: 17px;
+}
+
+.pk_currentPR_entry
+{
+    margin-bottom: 25px;
+}
+
+.pk_articlesAndReview_entry_heading
+{
+    margin-bottom: 8px;
+}
+
+.pk_articlesAndReviews_source
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #FF9C00;
+    text-shadow: 1px 1px 1px black;
+    line-height: 13px;
+}
+
+.pk_articlesAndReviews_date
+{
+    float: right;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    color: #D1B98B;
+    text-shadow: 1px 1px 1px black;
+    line-height: 13px;
+}
+
+.pk_articlesAndReview_entry_body
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    color: #D1B98B;
+    text-shadow: 1px 1px 1px black;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+
+/* LoginPopup.ascx */
+#pk_loginPopup_container
+{
+    display: none;
+    position: absolute;
+    z-index: 1001;
+}
+
+#pk_loginPopup_header
+{
+    margin-left: 20px;
+}
+
+#pk_loginPop_innerBody
+{
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.pk_loginPopup_inner_entry
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pk_loginPopup_inner_cellOne
+{
+    width: 180px;
+    text-align: right;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #CDBBA6;
+    text-shadow: 0px 1px 0px #000;
+    font-size: 14px;
+    float: left;
+    padding-top: 9px;
+    padding-right: 10px;
+}
+
+.pk_loginPopup_inner_cellTwo
+{
+    float: left;
+}
+
+.pk_loginPopup_inner_inputText_leftCap
+{
+    background-image: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/login/login_textbox_left_cap.png");
+    float: left;
+    height: 40px;
+    width: 7px;
+}
+
+.pk_loginPopup_inner_inputText
+{
+    background-color: transparent;
+    background-image: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/login/login_textbox_middle_tile.png");
+    border: 0 none;
+    float: left;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    width: 260px;
+    color: #17110C;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 0px 1px 0px #000;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.pk_loginPopup_inner_inputText_rightCap
+{
+    background-image: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/login/login_textbox_right_cap.png");
+    float: left;
+    height: 40px;
+    width: 7px;
+}
+
+#pk_loginPopup_inner_loginButton
+{
+    background-image: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/login/login_button_sprite.png");
+    width: 91px;
+    height: 40px;
+    display: block;
+    float: left;
+}
+
+#pk_loginPopup_inner_loginButton:hover
+{
+    background: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/login/login_button_sprite.png") 0px -40px;
+}
+
+#pk_loginPopup_inner_loginButton_text
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 3px #013249;
+    display: inline-block;
+    margin-left: 22px;
+    margin-top: 11px;
+}
+
+.pk_loginPopup_inner_forgotLinks
+{
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #E79B00;
+    text-shadow: 0px 1px 0px #000000;
+    margin-left: 10px;
+}
+
+.pk_loginPopup_inner_forgotLinks a
+{
+    text-decoration: underline;
+}
+
+/* PlayFreePopup.ascx */
+
+#pk_playFree_container
+{
+    display: none;
+    position: absolute;
+    z-index: 1001;
+}
+
+#pk_popup_playFree_header
+{
+    margin-left: 18px;
+}
+
+.pk_popup_playFree_bigButton
+{
+    float: left;
+    margin-left: 17px;
+}
+
+#pk_popup_playFree_androidButton
+{
+    background: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/play_free_window/android_button_sprite.png") 0px -177px;
+    width: 177px;
+    height: 177px;
+}
+
+#pk_popup_playFree_androidButton:hover
+{
+    background: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/play_free_window/android_button_sprite.png") 0px 0px;
+}
+
+#pk_popup_playFree_iosButton
+{
+    background: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/play_free_window/ios_button_sprite.png") 0px -177px;
+    width: 177px;
+    height: 177px;
+}
+
+#pk_popup_playFree_iosButton:hover
+{
+    background: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/play_free_window/ios_button_sprite.png") 0px 0px;
+}
+
+.pk_popup_playFree_webButton
+{
+    background: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/play_free_window/web_button_sprite.png") 0px -177px;
+    width: 177px;
+    height: 177px;
+}
+
+.pk_popup_playFree_webButton:hover
+{
+    background: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/play_free_window/web_button_sprite.png") 0px 0px;
+}
+
+/* Pages */
+
+/* /game/editprofile.aspx */
+
+#pk_editProfile_container
+{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.pk_editProfile_errorMessage_containerClass
+{
+    color: #EAD19E;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pk_editProfile_errorMessage_containerClass a
+{
+    text-decoration: underline;
+}
+
+#pk_editProfile_innerContainer
+{
+    margin-left: 10px;
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #120802;
+    font-size: 12px;
+}
+
+#pk_editProfile_innerContainer
+{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.pk_editProfile_title
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#pk_editProfile_picture_cellOne
+{
+    margin-top: 15px;
+    width: 125px;
+    float: left;
+}
+
+#pk_editProfile_picture_cellTwo
+{
+    margin-top: 15px;
+    width: 250px;
+    float: left;
+}
+
+#pk_editProfile_bio_container
+{
+    margin-top: 15px;
+}
+
+#pk_editProfile_characterCount
+{
+    text-align: right;
+    padding-top: 5px;
+    margin-right: 40px
+}
+
+#pk_editProfile_save_container
+{
+    margin-top: 15px;
+    margin-left: -2px;
+}
+
+.pk_editProfile_textArea_topCap
+{
+    background: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/edit_prof_text_area_top_cap.png");
+    width: 347px;
+    height: 10px;
+    margin-bottom: -1px;
+}
+
+.pk_editProfile_textArea
+{
+    background: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/edit_prof_text_area_middle_tile.png");
+    width: 337px;
+    border: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #000000;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.pk_editProfile_textArea_bottomCap
+{
+    background: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/edit_prof_text_area_bottom_cap.png");
+    width: 347px;
+    height: 10px;
+    margin-top: -1px;
+
+}
+
+/* /game/profile.aspx */
+#pk_profile_container
+{
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    margin-bottom: 3px;
+    text-shadow: 0 1px 0 #120802;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+#pk_profile_header
+{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.pk_profile_inactive_class
+{
+    color: #AAAAAA;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+#pk_profile_body_container
+{
+    margin-top: 20px;
+}
+
+#pk_profile_sideContainer
+{
+    width: 167px;
+    float: left;
+    font-weight: bold;
+}
+
+.pk_profile_sideTopCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/side_nav_box_top_cap.png');
+    width: 167px;
+    height: 10px;
+}
+
+.pk_profile_sideMiddleTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/side_nav_box_middle_tile.png');
+    width: 167px;
+    position: relative;
+}
+
+.pk_profile_sideBottomCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/side_nav_box_bottom_cap.png');
+    width: 167px;
+    height: 10px;
+}
+
+.pk_profile_sideLink
+{
+    display: block;
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+.pk_profile_sideLink_bottom
+{
+    display: block;
+    margin-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+}
+
+.pk_profile_sideLink_arrow {
+    background: url("/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/arrow.png") repeat scroll 0 0 transparent;
+    display: block;
+    float: right;
+    height: 13px;
+    margin-right: 18px;
+    margin-top: 3px;
+    width: 9px;
+}
+
+.pk_profile_sideLink:hover, .pk_profile_sideLink_bottom:hover
+{
+    color: #EAD19E;
+    text-shadow: 0 2px 0 #120802;
+}
+
+.pk_profile_sideLink:hover .pk_profile_sideLink_arrow, .pk_profile_sideLink_bottom:hover .pk_profile_sideLink_arrow
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/arrow.png') 0 -13px;
+}
+
+.pk_profile_sideLink_container_selected .pk_profile_sideLink
+{
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/side_nav_selected_regular.png');
+    color: #EAD19E;
+    text-shadow: 0 2px 0 #120802;
+}
+
+.pk_profile_sideLink_container_selected .pk_profile_sideLink_bottom
+{
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 14px;
+    margin-bottom: -6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/side_nav_selected_bottom.png');
+    color: #EAD19E;
+    text-shadow: 0 2px 0 #120802;
+}
+
+.pk_profile_sideLink_container_selected .pk_profile_sideLink_arrow
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_guide/pieces/arrow.png') 0 -13px;
+    margin-right: 16px;
+    
+}
+
+.pk_profile_sideDivider
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/side_nav_divider_hr.png');
+    margin-left: 3px;
+    width: 161px;
+    height: 4px;
+}
+
+#pk_profile_mainInfo
+{
+    float: left;
+    width: 408px;
+    margin-left: 20px;
+}
+
+#pk_profile_mainInfo_topCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/main_info_box_top_cap.png');
+    width: 408px;
+    height: 10px;
+}
+
+#pk_profile_mainInfo_middleTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/main_info_box_middle_tile.png');
+    width: 408px;
+}
+
+#pk_profile_mainInfo_middleTile a:hover
+{
+    text-decoration: underline;
+}
+
+
+#pk_profile_mainInfo_bottomCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_profile/pieces/main_info_box_bottom_cap.png');
+    width: 408px;
+    height: 10px;
+}
+
+#pk_profile_mainInfo_container
+{
+    padding-left: 17px;
+    padding-top: 10px;
+    padding-right: 17px;
+    padding-bottom: 15px;
+}
+
+#pk_profile_mainInfo_imageContainer
+{
+    /*
+    padding-left: 12px;
+    padding-top: 5px;
+    */
+    margin-right: 15px;
+    float: left;
+}
+
+.pk_profile_mainInfo_imageClass
+{
+    max-width: 100px;
+    border: 1px solid;
+    margin-bottom: 15px;
+    color: #EAD19E;
+}
+
+#pk_profile_mainInfo_summary_container
+{
+    width: 255px;
+    float: left;
+}
+
+#pk_profile_mainInfo_sectionlist_Container
+{
+    /* padding-left: 12px; */
+    color: #EAD19E;
+    font-weight: normal;
+}
+
+#pk_profile_mainInfo_summary_formerNames_containter
+{
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.pk_profile_mainInfo_sectionContainer
+{
+    margin-top: 15px;
+}
+
+.pk_profile_mainInfo_sectionBold
+{
+    font-weight: bold;
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    margin-bottom: 3px;
+    text-shadow: 0 1px 0 #120802;
+    margin-right: 15px;
+}
+
+.pk_profile_mainInfo_container
+{
+    margin-left: 12px;
+    margin-right: 5px;
+}
+
+.pk_profile_mainInfo_badges
+{
+    margin-left: -4px;
+    margin-right: 5px;
+}
+
+.pk_profile_mainInfo_container a:hover
+{
+    text-decoration: underline;
+}
+
+.pk_profile_mainInfo_earnedHats_entry
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    min-height: 20px;
+    position: relative;
+}
+
+#pk_profile_mainInfo_hats_currentHatScores_title
+{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pk_profile_hats_entry
+{
+    padding-bottom: 15px;
+}
+
+.pk_profile_hats_entry_img
+{
+    margin-right: 10px;
+}
+
+.pk_profile_hats_entry_link
+{
+    margin-right: 10px;
+}
+
+#pk_profile_mainInfo_trophies_title
+{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#pk_profile_mainInfo_badges_title
+{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#pk_profile_mainInfo_ships_title
+{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.pk_profile_mainInfo_title
+{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.pk_profile_badges_entry
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pk_profile_badges_entry_name
+{
+    display: inline-block;
+    width: 148px;
+}
+
+.pk_profile_badges_entry_progressBarHolder
+{
+    background-color: #120B06;
+    border: 1px solid #CDC3AB;
+    display: block;
+    padding: 0;
+    position: relative;
+    width: 150px;
+    display: inline-block;
+}
+
+.pk_profile_badges_entry_progressBarMarker
+{
+    background-color: #478900;
+    display: block;
+}
+
+.pk_profile_badges_entry_progressBarText
+{
+    color: #FFFFFF;
+    left: 0;
+    padding-top: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+#pk_profile_mainInfo_friends_title
+{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#pk_profile_mainInfo_enemies_title
+{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.pk_profile_badges_entry_img
+{
+    width: 50px;
+    height: 50px;
+}
+
+/* /game/city.aspx */
+.pk_profile_city_subHeader
+{
+    font-size: 12px;
+}
+
+.pk_profile_mainInfo_residentsTitle
+{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.pk_city_residents_entry
+{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    min-height: 20px;
+    position: relative;
+}
+
+.pk_city_residents_entry_cell_one
+{
+    left: 0px;
+    position: absolute;
+}
+
+.pk_city_residents_entry_cell_two
+{
+    left: 200px;
+    position: absolute;
+}
+
+.pk_city_residents_entry_cell_three
+{
+    left: 280px;
+    position: absolute;
+}
+
+/* /game/kingdom.aspx */
+.pk_kingdom_members_entry
+{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    min-height: 20px;
+    position: relative;
+}
+
+.pk_kingdom_members_entry_cell_one
+{
+    left: 0px;
+    position: absolute;
+}
+
+.pk_kingdom_members_entry_cell_two
+{
+    left: 170px;
+    position: absolute;
+}
+
+.pk_kingdom_members_entry_cell_three
+{
+    left: 410px;
+    position: absolute;
+    text-align: right;
+}
+
+.pk_kingdom_members_entry_cell_four
+{
+    left: 460px;
+    position: absolute;
+}
+
+.pk_kingdom_members_entry_cell_five
+{
+    left: 520px;
+    position: absolute;
+    width: 60px;
+}
+
+.pk_kingdom_members_entry_cell_six
+{
+    left: 580px;
+    position: absolute;
+    width: 60px;
+}
+
+.pk_kingdom_members_entry_cell_seven
+{
+    left: 640px;
+    position: absolute;
+    width: 60px;
+}
+
+/* /get_food/Default.aspx */
+
+.pk_popup_topCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/purchase_window/popup_window_top_cap.png');
+    width: 666px;
+    height: 22px;
+}
+
+.pk_popup_middleTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/purchase_window/popup_window_middle_tile.png');
+    width: 666px;
+    padding-bottom: 15px;
+}
+
+.pk_popup_closeWindowButton
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/purchase_window/close_window_button.png');
+    display: block;
+    width: 31px;
+    height: 31px;
+    float: right;
+    margin-right: 15px;
+    margin-top: -8px;
+}
+
+.pk_popup_closeWindowButton:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/purchase_window/close_window_button.png') 0 -31px;
+}
+
+.pk_popup_bottomCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/purchase_window/popup_window_bottom_cap.png');
+    width: 666px;
+    height: 22px;
+}
+
+.pk_popup_innerBox_topCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/purchase_window/inner_box_top_cap.png');
+    width: 602px;
+    height: 8px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.pk_popup_innerBox_middleTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/purchase_window/inner_box_middle_tile.png');
+    width: 602px;
+    margin: 0 auto;
+}
+
+.pk_popup_innerBox_bottomCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/purchase_window/inner_box_bottom_cap.png');
+    width: 602px;
+    height: 8px;
+    margin: 0 auto;
+}
+
+.pk_popup_innerBox_body
+{
+    margin-left: 12px;
+    padding-top: 2px;
+}
+
+.pk_popup_innerBox_title
+{
+    color: #E0941C;
+    font-size: 15px;
+}
+
+#pk_getFood_buyFood_header
+{
+    margin-left: 20px;
+}
+
+#pk_getPlatinum_buyPlatinum_header
+{
+    margin-left: 20px;
+}
+
+.pk_getFood_buyFood_header_title
+{
+    color: #EAD19E;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 2px 1px black;
+}
+
+.pk_getFood_buyFood_radioButton
+{
+    float: left;
+    margin-top: 30px;
+}
+
+.pk_getFood_buyFood_bars
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/purchase_window/purchase_food_bars.png');
+    width: 438px;
+    height: 86px;
+    display: block;
+    float: left;
+}
+
+.pk_getFood_buyFood_bars:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/purchase_window/purchase_food_bars.png') 0 -86px;
+}
+
+.pk_getFood_buyFood_bars_selected
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/purchase_window/purchase_food_bars.png') 0 86px;
+    width: 438px;
+    height: 86px;
+    display: block;
+    float: left;
+}
+
+.pk_getFood_buyFood_cellOne
+{
+    float: left;
+    width: 50px;
+}
+
+.pk_getFood_buyFood_cellTwo
+{
+    float: left;
+    width: 170px;
+}
+
+.pk_getFood_buyFood_cellThree
+{
+    float: left;
+    text-align: right;
+    width: 160px;
+}
+
+.pk_getFood_buyFood_checkmark
+{
+    float: left;
+    text-align: right;
+    width: 55px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.pk_getFood_buyFood_smallFoodIcon
+{
+    margin-left: 20px;
+    margin-top: 26px;
+    
+}
+
+.pk_getFood_buyFood_foodQuantityTitle
+{
+    color: #EAD19E;
+    font-family: Helvetica;
+    font-size: 26px;
+    font-weight: bold;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-shadow: 1px 2px 1px black;
+}
+
+.pk_getFood_buyFood_foodBonusTitle
+{
+    float: left;
+    color: #95BA00;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: -3px;
+    text-shadow: 0 2px 0 #000000;
+}
+
+.pk_getFood_buyFood_foodPriceUSD
+{
+    color: #EAD19E;
+    font-family: Helvetica;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px black;
+    display: inline-block;
+    margin-top: 24px;
+}
+
+.pk_getFood_buyFood_cellBestValue
+{
+    float: right;
+    position: relative;
+}
+
+.pk_getFood_buyFood_bestValue_banner
+{
+    width: 76px;
+    height: 76px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: -78px;
+    right: 0;
+    top: -4px;
+}
+
+#pk_getFood_loading_popup
+{
+    display: none;
+    position: absolute;
+    z-index: 1001;
+}
+
+#pk_getFood_purchaseBlocked_popup {
+    display: none;
+    position: absolute;
+    z-index: 1001;
+}
+
+#pk_getFood_buyFood_container
+{
+    display: none;
+    position: absolute;
+    z-index: 1001;
+}
+
+#pk_getPlatinum_buyPlatinum_container
+{
+    display: none;
+    position: absolute;
+    z-index: 1001;
+}
+
+#pk_getFood_foodContainer a
+{
+    color: #E0941C;
+}
+
+#pk_getFood_platinumContainer a
+{
+    color: #E0941C;
+}
+
+.pk_getFood_bgImage_container
+{
+    float:right;
+    margin-right: 392px;
+}
+
+.pk_getFood_bgImage
+{
+    
+    display: block;
+    width: 411px;
+    height: 320px;
+    margin-top: -5px;
+    position: absolute;
+    z-index: 1;
+}
+
+.pk_getFood_navigation_divider
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_divider_tile.png');
+    height: 41px;
+    width: 4px;
+    margin-top: 4px;
+    margin-left: -2px;
+    margin-right: -2px;
+    float: left;
+    position: relative;
+    z-index: 3;
+}
+
+.pk_getFood_navigation .pk_getFood_navigation_leftTile_edge
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_navbar_unselected_left_cap.png');
+    width: 8px;
+    height: 53px;
+    float: left;
+}
+
+.pk_getFood_navigation .pk_getFood_navigation_middleTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_navbar_unselected_middle_tile.png');
+    height: 53px;
+    float: left;
+}
+
+.pk_getFood_navigation .pk_getFood_navigation_rightTile_edge
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_navbar_unselected_right_cap.png');
+    width: 8px;
+    height: 53px;
+    float: left;
+}
+
+
+.pk_getFood_navigation .pk_getFood_navigation_text
+{
+    display: inline-block;
+    margin-top: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: #b9a985;
+    text-shadow: 1px 2px 1px #291b08;
+}
+
+.pk_getFood_navigation_selected .pk_getFood_navigation_text
+{
+    display: inline-block;
+    margin-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: White;
+    text-shadow: 1px 2px 1px #291b08;
+}
+.pk_getFood_navigation_selected .pk_getFood_navigation_nipple
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_navbar_selected_nipple.png');
+    width: 14px;
+    height: 12px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.pk_getFood_navigation_selected .pk_getFood_navigation_leftTile_edge
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_navbar_selected_edge_left_cap.png');
+    width: 12px;
+    height: 53px;
+    margin-top: -2px;
+    float: left;
+}
+
+.pk_getFood_navigation_selected .pk_getFood_navigation_leftTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_navbar_selected_left_cap.png');
+    width: 9px;
+    height: 53px;
+    float: left;
+}
+
+.pk_getFood_navigation .pk_getFood_navigation_leftTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_navbar_unselected_middle_tile.png');
+    width: 5px;
+    height: 53px;
+    float: left;
+}
+
+.pk_getFood_navigation_selected .pk_getFood_navigation_middleTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_navbar_selected_middle_tile.png');
+    height: 53px;
+    float: left;
+}
+
+.pk_getFood_navigation_selected .pk_getFood_navigation_rightTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_navbar_selected_right_cap.png');
+    width: 9px;
+    height: 53px;
+    float: left;
+}
+
+.pk_getFood_navigation .pk_getFood_navigation_rightTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_navbar_unselected_middle_tile.png');
+    width: 5px;
+    height: 53px;
+    float: left;
+}
+
+.pk_getFood_navigation_selected .pk_getFood_navigation_rightTile_edge
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_platinum_navbar/food_platinum_navbar_selected_edge_right_cap.png');
+    width: 12px;
+    height: 53px;
+    margin-top: -2px;
+    float: left;
+}
+
+.pk_getFood_titleContainer
+{
+    margin-top: 22px;
+	margin-left: 16px;
+}
+
+.pk_getFood_titleIcon
+{
+    float: left;
+}
+
+.pk_getFood_title
+{
+    float: left;
+    margin-top: 0px;
+	margin-left: 15px;
+	margin-bottom: 0px;
+	font-size: 36px;
+    color: #EAD19E;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-shadow: 1px 2px 1px black;
+}
+
+#pk_getFood_buyFoodNow_button
+{
+    float: right;
+    position: relative;
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_page/buy_food_button.png');
+    width: 232px;
+    height: 62px;
+    margin-right: 20px;
+	margin-top: 5px;
+    z-index: 3;
+}
+
+#pk_getFood_buyFoodNow_button:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/food_page/buy_food_button.png') 0 -62px;
+}
+
+#pk_getFood_buyFoodNow_buttonText
+{
+    width: 232px;
+    display: block;
+    text-align: center;
+    line-height: 62px;
+    font-size: 20px;
+	color: #FFBA00;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #460700;
+}
+
+#pk_getFood_buyPlatinum_button
+{
+    float: right;
+    position: relative;
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/platinum_page/sign_up_button.png');
+    width: 232px;
+    height: 62px;
+    margin-right: 20px;
+	margin-top: 5px;
+    z-index: 3;
+}
+
+#pk_getFood_buyPlatinum_button:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/platinum_page/sign_up_button.png') 0 -62px;
+}
+
+#pk_getFood_buyPlatinum_buttonText
+{
+    width: 232px;
+    display: block;
+    text-align: center;
+    line-height: 62px;
+    font-size: 20px;
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-shadow: 0px 2px 4px #3F382A;
+}
+
+#pk_getFood_viewStatus
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/platinum_page/view_status_text_box.png');
+    float: right;
+    position: relative;
+    z-index: 3;
+    margin-right: 25px;
+    margin-top: 5px;
+    width: 222px;
+    height: 30px;
+}
+
+#pk_getFood_viewStatus_text
+{
+    margin-top: 8px;
+    margin-left: 12px;
+    display: inline-block;
+    color: #E0941C;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    text-shadow: 0px 2px 1px black;
+}
+
+#pk_getFood_viewStatus_arrow
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_get_food/pieces/platinum_page/view_status_arrow.png');
+    width: 9px;
+    height: 13px;
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 7px;
+}
+
+.pk_getFood_buttonLink
+{
+    text-decoration: none;
+}
+
+.pk_getFood_buttonLink:hover
+{
+    text-decoration: none;
+}
+
+.pk_getFood_foodDescription
+{
+     width: 600px;
+     position: relative;
+     z-index: 3;
+     margin-left: 20px;
+     font-size: 14px;
+     color: #EAD19E;
+     font-family: Helvetica;
+     font-weight: normal;
+     text-shadow: 1px 1px 1px black;
+     margin-top: 0px;
+     line-height: 21px;
+}
+
+.pk_getFood_column
+{
+	float: left;
+	width: 300px;
+	position: relative;
+	z-index: 3;
+	padding-left: 14px;
+	padding-top: 45px;
+	padding-bottom: 30px;
+}
+
+.pk_getFood_column_image
+{
+    
+}
+
+.pk_getFood_column_title
+{
+    font-size: 18px;
+    color: #E0941C;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+.pk_getFood_column_description
+{
+    width: 280px;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #EAD19E;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px black;
+	line-height: 22px;
+}
+
+.pk_getFood_column_description a:hover
+{
+    text-decoration: underline;
+}
+
+/* update-hut.aspx */
+
+#pk_updateHut_loadingMessage_container
+{
+    position: absolute;
+    width: 640px;
+    text-align: center;
+}
+
+#pk_updateHut_article_topCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_update_hut/pieces/update_hut_paper_top_cap.png');
+    width: 627px;
+    height: 74px;
+}
+
+#pk_updateHut_article_middleTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_update_hut/pieces/update_hut_paper_middle_tile.png');
+    width: 627px;
+    float: left;
+}
+
+#pk_updateHut_article_bottomCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_update_hut/pieces/update_hut_paper_bottom_cap.png');
+    width: 627px;
+    height: 71px;
+    /* margin-top: -20px; */
+    float: left;
+}
+
+#pk_updateHut_article_textContainer
+{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#pk_updateHut_article_textContainer a
+{
+    color: #611700;
+    text-decoration: underline;
+}
+
+#pk_updateHut_allPostList_header
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #EAD19E;
+    text-shadow: 0px 2px 0px black;
+    margin-bottom: 1px;
+    padding-top: 4px;
+    margin-left: 13px;
+    float: left;
+}
+
+.pk_updateHut_article_linkContainer_selected
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_update_hut/pieces/update_hut_right_column_widget_sprite.png') 0px 132px;
+    width: 313px;
+    height: 132px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.pk_updateHut_article_linkContainer
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_update_hut/pieces/update_hut_right_column_widget_sprite.png') 0px 0px;
+    width: 313px;
+    height: 132px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+}
+
+.pk_updateHut_article_linkContainer:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_update_hut/pieces/update_hut_right_column_widget_sprite.png') 0px -132px;
+    width: 313px;
+    height: 132px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.pk_updateHut_article_linkTitle
+{
+    color: #2F1C0B;
+	position: absolute;
+	top: 18px;
+	left: 28px;
+	width: 214px;
+	white-space: nowrap;
+	overflow: hidden;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-shadow: 0px 1px 0px #CAB186;
+}
+
+.pk_updateHut_article_linkDate
+{
+	color: #2F1C0B;
+	position: absolute;
+	top: 18px;
+	right: 22px;
+	text-align: right;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	text-shadow: 0px 1px 0px #CAB186;
+}
+
+.pk_updateHut_article_linkText
+{
+	color: #2F1C0B;
+	position: absolute;
+	top: 50px;
+	left: 28px;
+	overflow: hidden;
+	width: 250px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	text-shadow: 0px 1px 0px #CAB186;
+}
+
+.pk_updateHut_article_linkContainer_selected .pk_updateHut_article_linkText, .pk_updateHut_article_linkContainer_selected .pk_updateHut_article_linkDate, .pk_updateHut_article_linkContainer_selected .pk_updateHut_article_linkTitle
+{
+    text-shadow: 0px 1px 0px #DFC9A4;
+}
+
+.pk_updateHut_articleList_pageButton
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_update_hut/pieces/pagination_sprite.png') 0px 0px;
+    text-decoration: none;
+    color: Black;
+    width: 31px;
+    height: 33px;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+.pk_updateHut_articleList_pageButton:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_update_hut/pieces/pagination_sprite.png') 0px -33px;
+}
+
+.pk_updateHut_articleList_pageButton_text
+{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+#pk_updateHut_article_textContainer
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #2F1C0B;
+	text-shadow: 0px 1px 0px #E0CBA4;
+}
+
+#pk_updateHut_article_textContainer h1
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2f1c0b;
+    text-shadow: 0px 1px 0px #E0CBA4;
+}
+
+#pk_updateHut_article_textContainer h3
+{
+    font-size: 12px;
+}
+
+#pk_updateHut_article_bottom_section
+{
+    margin-top: 10px;
+    margin-right: 15px;
+    text-align: right;
+}
+
+#pk_updateHut_article_bottom_section a:hover
+{
+    text-decoration: underline;
+}
+
+#pk_updateHut_rss_icon
+{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#pk_updateHut_rss_text
+{
+    float: right;
+    margin-top: 5px;
+    color: #E0941C;
+}
+
+#pk_updateHut_rss_link:hover #pk_updateHut_rss_text
+{
+    text-decoration: underline;
+}
+
+/* Rankings.aspx */
+
+#pk_rankings_title
+{
+    margin-top: 8px; 
+    float: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	color: #EAD19E;
+	text-shadow: 1px 2px 2px #120802;
+	margin-bottom: 3px;
+}
+
+#pk_rankings_navigation
+{
+    float: right;
+	margin-top: 18px;
+	margin-right: 14px;
+}
+
+.pk_rankings_navigation_linkContainer
+{
+    float: left;
+}
+
+.pk_rankings_navigation_linkContainer_selected
+{
+}
+
+.pk_rankings_navigation_link
+{
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #c7b796;
+	text-shadow: 1px 1px 1px black;
+}
+
+.pk_rankings_navigation_link:hover
+{
+    color: #eae1ce;
+    text-decoration: none;
+}
+
+.pk_rankings_navigation_linkContainer_selected .pk_rankings_navigation_linkText
+{
+    color: #e0941c;
+}
+
+.pk_rankings_navigation_linkText
+{
+    display: inline-block;
+    margin-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pk_rankings_selected_leftCap
+{
+    width: 5px;
+    height: 27px;
+    float: left;
+}
+
+.pk_rankings_navigation_linkContainer_selected .pk_rankings_selected_leftCap
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_rankings/pieces/ranking_type_selection_box_left_cap.png');
+}
+
+.pk_rankings_selected_middleTile
+{
+    height: 27px;
+    float: left;
+}
+
+.pk_rankings_navigation_linkContainer_selected .pk_rankings_selected_middleTile
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_rankings/pieces/ranking_type_selection_box_middle_tile.png');
+}
+
+.pk_rankings_selected_rightCap
+{
+    width: 5px;
+    height: 27px;
+    float: left;
+}
+
+.pk_rankings_navigation_linkContainer_selected .pk_rankings_selected_rightCap
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_rankings/pieces/ranking_type_selection_box_right_cap.png');
+}
+
+.pk_rankings_fullBox
+{
+    float: left;
+    margin-right: 15px;
+    margin-top: 7px;
+    padding-right: 4px;
+    padding-left: 3px;
+}
+
+.pk_rankings_fullBox_topCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_rankings/pieces/rankings_full_box_top_cap.png');
+    width: 298px;
+    height: 10px;
+}
+
+.pk_rankings_fullBox_middleTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_rankings/pieces/rankings_full_box_middle_tile.png');
+    width: 298px;
+    height: 925px;
+}
+
+.pk_rankings_fullBox_middleTile_noHeight
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_rankings/pieces/rankings_full_box_middle_tile.png');
+    width: 298px;
+}
+
+.pk_rankings_fullBox_bottomCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pk_rankings/pieces/rankings_full_box_bottom_cap.png');
+    width: 298px;
+    height: 10px;
+}
+
+.pk_rankings_hatImage_description
+{
+    float: left;
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+.pk_rankings_hatImage
+{
+    float: left;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.pk_rankings_row
+{
+    width: 298px;
+    height: 65px;
+    position: relative;
+}
+
+.pk_rankings_row_smaller
+{
+    height: 35px;
+}
+
+.pk_rankings_cell_one
+{
+    position: absolute;
+    width: 65px;
+}
+
+.pk_rankings_cell_two
+{
+    position: absolute;
+    left: 80px;
+    width: 165px;
+}
+
+.pk_rankings_cell_three
+{
+    position: absolute;
+    left: 240px;
+    width: 47px;
+}
+
+.pk_rankings_cell_three .pk_latestRankings_rankingEntry_score
+{
+    margin-right: 6px;
+}
+
+.pk_rankings_rankingEntry_hrDivider
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/rankings_widget_box_divider_hr.png') ;
+    height: 2px;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-bottom: 11px;
+}
+
+.pk_rankings_title_cell
+{
+    position: absolute;
+    left: 50px;
+}
+
+.pk_rankings_hatImage
+{
+    float: right;
+    margin-top: 3px;
+}
+
+.pk_rankings_description
+{
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+.pk_rankings_entryName
+{
+    margin-left: 0px;
+}
+
+.pk_rankings_lastWinner_row
+{
+    margin-left: 20px;
+    font-size: 11px;
+    color: #ded3bd;
+}
+
+/* /media/default.aspx */
+#pk_media_download_pressKit
+{
+    margin-right: 62px;
+    font-size: 22px;
+}
+
+/* Wallpaper.aspx */
+#pk_wallpaper_allWallpaperList
+{
+    margin-left: 25px;
+}
+
+#pk_wallpaper_belowPreview
+{
+    float: right;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+.pk_wallpaper_sizeSelectClass
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/wallpapers_page_pieces/resolution_dropdown_bar.png');
+    width: 143px;
+    height: 38px;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+
+.pk_wallpaper_sizeSelectClass:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/wallpapers_page_pieces/resolution_dropdown_bar.png') 0px -38px;
+}
+
+.pk_wallpaper_sizeSelectClassPressed
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/wallpapers_page_pieces/resolution_dropdown_bar.png') 0px 38px;
+    width: 143px;
+    height: 38px;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+}
+
+#pk_wallpaper_sizeSelect_text
+{
+    color: 	#E0941C;
+    position: absolute;
+    left: 12px;
+    top: 8px;
+}
+
+#pk_wallpaper_sizeSelect_dropDown
+{
+    position: absolute;
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/wallpapers_page_pieces/dropdown_container_middle_tile.png');
+    padding-left: 13px;
+    width: 130px;
+    margin-top: -8px;
+    padding-top: 8px;
+    z-index: 1;
+}
+
+#pk_wallpaper_sizeSelect_dropDown_container
+{
+    display: none;
+}
+
+#pk_wallpaper_sizeSelect_dropDown_bottomCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/wallpapers_page_pieces/dropdown_container_bottom_cap.png');
+    width: 143px;
+    height: 8px;
+    position: absolute;
+    left: 0px;
+}
+
+.pk_wallpaper_sizeEntry
+{
+    width: 143px;
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+}
+
+#pk_wallpaper_sizeSelect_dropDown a
+{
+    display: block;
+    padding-top: 10px;
+    outline: none;
+}
+
+#pk_wallpaper_wallpaperList_container_topCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/wallpapers_page_pieces/wallpaper_icons_container_top_cap.png');
+    width: 274px;
+    height: 10px;
+}
+
+#pk_wallpaper_wallpaperList_container_middleTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/wallpapers_page_pieces/wallpaper_icons_container_middle_tile.png');
+    width: 274px;
+}
+
+#pk_wallpaper_wallpaperList_container_bottomCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_media/wallpapers_page_pieces/wallpaper_icons_container_bottom_cap.png');
+    width: 274px;
+    height: 10px;
+}
+
+.pk_wallpaper_wallpaperList_linkButton
+{
+    outline: none;
+}
+
+.pk_wallpaper_wallpaperList_linkButton_selected
+{
+    outline: none;
+}
+
+.pk_wallpaper_wallpaperList_entry
+{
+    margin: 0 auto;
+    width: 197px;
+    height: 157px;
+    display: block;
+}
+
+/* /game/tradedata.aspx */
+#pk_tradeData_container
+{
+    margin-left: 10px;
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #120802;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+#pk_tradeData_container a:hover
+{
+    text-decoration: underline;
+}
+
+/* /game/preferences-config.aspx */
+#pk_preferencesConfig_container
+{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #120802;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+#pk_preferencesConfig_container a:hover
+{
+    text-decoration: underline;
+}
+
+/* /game/notifications-config.aspx */
+
+#pk_notificationsConfig_container
+{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #120802;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+#pk_notificationsConfig_container a:hover
+{
+    text-decoration: underline;
+}
+
+/* pk_generic_container */
+.pk_generic_container
+{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #120802;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+.pk_generic_container a:hover
+{
+    text-decoration: underline;
+}
+
+/* /Cookies.aspx */
+#pk_cookies_container
+{
+    margin-left: 10px;
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #120802;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+#pk_cookies_container a:hover
+{
+    text-decoration: underline;
+}
+
+/* /Terms.aspx */
+#pk_terms_container
+{
+    margin-left: 10px;
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #120802;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+#pk_terms_container a:hover
+{
+    text-decoration: underline;
+}
+
+/* /Privacy.aspx */
+#pk_privacy_container
+{
+    margin-left: 10px;
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #120802;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+#pk_privacy_container a:hover
+{
+    text-decoration: underline;
+}
+
+/* /ClientBootError.aspx */
+#pk_clientBootError_container
+{
+    margin-left: 10px;
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #120802;
+    font-size: 12px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+#pk_clientBootError_container a:hover
+{
+    text-decoration: underline;
+}
+
+/* /game/PKFan.aspx */
+
+#pk_pkfan_container
+{
+    margin-left: 10px;
+    color: #EAD19E;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #120802;
+    font-size: 12px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+#pk_pkfan_container a:hover
+{
+    text-decoration: underline;
+}
+
+/* /get_food/FoodAward.aspx */
+
+#pk_slot_outerContainer {
+    border: 2px solid #7E4E18;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.slotContainer
+{
+    height: 100px;
+    width: 98px;
+    border-right: 2px solid #7E4E18;
+    float: left;
+    position: relative;
+    background-color: #22160d;
+}
+        
+.slotItem 
+{
+    font-size: 71px;
+    position: absolute;
+    left:25px;
+}
+
+.pk_getFood_foodAward_buttonText
+{
+    width: 302px;
+    display: block;
+    font-size: 26px;
+    color: #2D1F0F;
+    font-weight: bold;
+    margin-top: 13px;
+    text-align: center;
+    text-shadow: 0 1px 0 #DBCFB5;
+}
+
+/* Guide */
+.pk_guide_iframe
+{
+    width: 100%;
+    height: 500px;
+}
+
+
+/* BUTTONS */
+.pk_moreButton .leftCap
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/more_button_left_cap.png');
+    width: 7px;
+    height: 33px;
+    float: left;
+}
+
+.pk_moreButton:hover .leftCap
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/more_button_left_cap.png') 0px -33px;
+}
+
+.pk_moreButton .middleTile
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/more_button_middle_tile.png');
+    height: 33px;
+    background-repeat: repeat-x;
+    float: left;
+}
+
+.pk_moreButton:hover .middleTile
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/more_button_middle_tile.png') 0px -33px;
+}
+
+.pk_moreButton .rightCap
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/more_button_right_cap.png') ;
+    width: 7px;
+    height: 33px;
+    float: left;
+}
+
+.pk_moreButton:hover .rightCap
+{    
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/more_button_right_cap.png') 0px -33px;
+}
+
+.pk_moreButton .buttonText
+{
+    margin-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.pk_moreButton .pk_moreButton_arrow
+{
+    display: inline-block;
+    margin-top: 6px;
+    float: right;
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+.pk_moreButton .pk_moreButton_arrow_left
+{
+    display: inline-block;
+    margin-top: 6px;
+    float: left;
+    margin-right: -5px;
+    margin-left: 5px;
+}
+
+.pk_moreButton_text
+{
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #441700;
+	text-shadow: 0px 1px 0px #E29D19;
+}
+
+/* brown button */
+.pk_rightColumn_brownButton
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pieces/right_column_button_type2.png');
+    display: inline-block;
+    position: relative;
+    width: 304px;
+    height: 93px;
+    vertical-align: middle;
+}
+
+.pk_rightColumn_brownButton:hover
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/pages/pk_community/pieces/right_column_button_type2.png') 0 93px;
+}
+
+.pk_rightColumn_brownButton img
+{
+    float: left;
+    padding-left: 14px;
+	padding-top: 18px;
+	padding-right: 10px;
+}
+
+.pk_rightColumn_brownButton_text
+{
+    line-height: 93px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #E0941C;
+	text-shadow: 1px 2px 3px black;
+	margin-bottom: 1px;
+	padding-top: 7px;
+}
+
+.pk_rightColumn_brownButton_textOnly
+{
+    line-height: 93px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #E0941C;
+	text-shadow: 1px 2px 3px black;
+	margin-bottom: 1px;
+	float: right;
+	margin-right: 67px;
+}
+
+
+/* NIVO SLIDER */
+
+#pk_imageSlider_sliderWrapper
+{
+    /*background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/image_slides/slider_image_border.png');*/
+    padding: 6px;
+    margin-left: -12px;
+    margin-top: 6px;
+}
+
+#pk_imageSlider_sliderWrapper_topCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/image_slides/slider_image_border_top_cap_new.png');
+    width: 644px;
+    height: 14px;
+}
+
+#pk_imageSlider_sliderWrapper_middleTile
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/image_slides/slider_image_border_middle_tile_new.png');
+    width: 644px;
+    height: 305px;
+    position: absolute;
+    top: 19px;
+    left: -6px;
+}
+
+#pk_imageSlider_sliderWrapper_bottomCap
+{
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/image_slides/slider_image_border_bottom_cap_new.png');
+    width: 644px;
+    height: 14px;
+    margin-top: -6px;
+}
+
+.pk_imageSlider_imageHolder
+{
+    margin-top: -6px;
+    margin-left: 10px;
+}
+
+.pk_nivo_theme .nivo-controlNav {
+	/* Tweak this to center bullets */
+	/*display: none;*/
+	top: 65px;
+    left: 585px;
+    position: absolute;    
+}
+
+.pk_nivo_theme .nivo-controlNav a {
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/image_slides_nav_bubbles_sprite.png') no-repeat scroll 0 -30px transparent;
+    border: 0 none;
+    display: block;
+    height: 30px;
+    margin-right: 3px;
+    text-indent: -9999px;
+    width: 28px;
+}
+
+.pk_nivo_theme .nivo-controlNav a.active {
+    background: url('/web/20190214170112im_/http://www.parallelkingdom.com/img/theme/main_body/image_slides_nav_bubbles_sprite.png') no-repeat scroll 0 0 transparent;
+}
+
+.pk_nivo_theme .nivo-directionNav {
+	/* PREV and NEXT */
+}
+
+/* FONTS */
+
+.pk_topBar_normalText
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    color: #c2b09d;
+    text-shadow: 0px 1px 0px #000000;
+    margin-top: 6px;
+}
+
+.pk_topBar_boldText
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #e0941c;
+    text-shadow: 0px 1px 0px #000000;
+}
+
+.pk_topBar_boldText_spacing
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pk_topBar_boldText_white
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #ffffff;
+    text-shadow: 0px 1px 0px #001c2f;
+}
+
+.pk_topBar_inputText
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    color: #f7f1eb;
+    text-shadow: 0px 1px 0px #000000;
+}
+
+.pk_bold_light_heading
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #ead19e;
+    text-shadow: 0px 1px 0px #120802;
+    margin-bottom: 3px;
+}
+
+.pk_rightColumn_yellowTitle
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #e0941c;
+    text-shadow: 0px 1px 0px #000000;
+    margin-bottom: 1px;
+    padding-top: 7px;
+}
+
+.pk_rightColumn_text
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #ded3bd;
+    text-shadow: 0px 1px 0px #000000;
+    line-height: 15px;
+}
+
+.pk_footer_title
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #b09e79;
+    text-shadow: 0px 2px 0px #120802;
+    letter-spacing: 1px;
+}
+
+.pk_footer_linkText
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #7e4e18;
+    margin-top: 8px;
+	text-shadow: 0px 2px 0px black;
+	line-height: 21px;
+}
+
+.pk_footer_linkText:hover
+{
+    color: #e38b00; 
+}
+
+.pk_small_yellow_text
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #7e4e18;
+    margin-top: 8px;
+	text-shadow: 0px 2px 0px black;
+}
+
+.pk_bold_light_heading_media
+{
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   font-size: 26px;
+   color: #EAD19E;
+   text-shadow: 1px 1px 1px #120802;
+   margin-top: 5px;
+   margin-bottom: 1px;
+}
+
+.pk_cream_text
+{
+    color: #ead19e;
+}
+
+/*
+     FILE ARCHIVED ON 17:01:12 Feb 14, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:38:54 Jul 15, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 60.608
+  exclusion.robots: 0.136
+  exclusion.robots.policy: 0.123
+  RedisCDXSource: 0.979
+  esindex: 0.01
+  LoadShardBlock: 40.213 (3)
+  PetaboxLoader3.datanode: 94.037 (5)
+  load_resource: 218.121 (2)
+  PetaboxLoader3.resolve: 59.026 (2)
+*/
