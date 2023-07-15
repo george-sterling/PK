@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Test Page</title>
-</head>
-<body>
-  <h1>Welcome to the Test Page</h1>
-  
-  <p>This is a paragraph of 5 text.</p>
-  
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
+<script>
+  fetch('monsters/Dire Wolf - Guide.html')
+    .then(response => response.text())
+    .then(html => {
+      document.open();
+      document.write(html);
+      document.close();
+    });
+</script>
 
 
